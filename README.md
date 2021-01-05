@@ -39,4 +39,4 @@ Goal End Date: January 31, 2021.
 ~ Project Journal ~ 
 
 Date: 01/04/2021 
-Message: Today, I have begun my quest to complete this Hardware Store project. I am getting the plans set in order to complete this project smoothly. This is my first message of the project. I will log each time I work on this project in order to keep a detailed log on progress and a 'how to' for the project as well. Lets do this! I began by adding some classes.
+Message: Today, I have begun my quest to complete this Hardware Store project. I am getting the plans set in order to complete this project smoothly. This is my first message of the project. I will log each time I work on this project in order to keep a detailed log on progress and a 'how to' for the project as well. Lets do this! I began by adding some classes and testing them. I was successful in adding the classes and testing them to make sure they work!
