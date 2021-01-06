@@ -19,7 +19,7 @@ Idea:
     - Each category has products with in the category
         - i.e. Category: Tools --> Sub-Category: Wrench, Hammer, etc.
     - Functionalities
-        - Count how many producs a location has.
+        - Count how many products each category and location has.
         - Rank each location by number of products.
         - Ability to count the number of products.
         - Rank each location by number of categories.
@@ -40,3 +40,6 @@ Goal End Date: January 31, 2021.
 
 Date: 01/04/2021 
 Message: Today, I have begun my quest to complete this Hardware Store project. I am getting the plans set in order to complete this project smoothly. This is my first message of the project. I will log each time I work on this project in order to keep a detailed log on progress and a 'how to' for the project as well. Lets do this! I began by adding some classes and testing them. I was successful in adding the classes and testing them to make sure they work!
+
+Date: 01/05/2021
+Message: Today is a new day! I will be doing some Test Driven Development with Javascript!
