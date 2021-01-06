@@ -42,4 +42,4 @@ Date: 01/04/2021
 Message: Today, I have begun my quest to complete this Hardware Store project. I am getting the plans set in order to complete this project smoothly. This is my first message of the project. I will log each time I work on this project in order to keep a detailed log on progress and a 'how to' for the project as well. Lets do this! I began by adding some classes and testing them. I was successful in adding the classes and testing them to make sure they work!
 
 Date: 01/05/2021
-Message: Today is a new day! I will be doing some Test Driven Development with Javascript!
+Message: Today is a new day! I will be doing some Test Driven Development with Javascript! Was able to write a simple Test using Jest! I can count how many products are in 1 category. I also tried to throw an error but was unsuccessful today. I will try again tomorrow and see where this project takes me. 
