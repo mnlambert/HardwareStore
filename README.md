@@ -43,3 +43,9 @@ Message: Today, I have begun my quest to complete this Hardware Store project. I
 
 Date: 01/05/2021
 Message: Today is a new day! I will be doing some Test Driven Development with Javascript! Was able to write a simple Test using Jest! I can count how many products are in 1 category. I also tried to throw an error but was unsuccessful today. I will try again tomorrow and see where this project takes me. 
+
+Date: 01/06/2021
+Message: Did not code today
+
+Date 01/07/2021
+Message: Today is a new day! I will try testing my error code and see if it returns this error. Go to this link for the accursed TDD for JS to test throwing errors in a function(https://medium.com/@afolabiwaheed/how-to-test-a-function-thats-expected-to-throw-error-in-jest-2419cc7c6462). After further research, I was able to test throwing an error in the function. 
