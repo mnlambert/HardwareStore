@@ -19,7 +19,12 @@ Idea:
     - Each category has products with in the category
         - i.e. Category: Tools --> Sub-Category: Wrench, Hammer, etc.
     - Functionalities
-        - Count how many products each category and location has.
+        - Count 
+            - how many products each category 
+            - how many categories in each hardware store
+            - how many products in each hardware store
+            - how many categories in all the hardware stores
+            - how many products in all the hardware stores
         - Rank each location by number of products.
         - Ability to count the number of products.
         - Rank each location by number of categories.
@@ -47,5 +52,11 @@ Message: Today is a new day! I will be doing some Test Driven Development with J
 Date: 01/06/2021
 Message: Did not code today
 
-Date 01/07/2021
+Date: 01/07/2021
 Message: Today is a new day! I will try testing my error code and see if it returns this error. Go to this link for the accursed TDD for JS to test throwing errors in a function(https://medium.com/@afolabiwaheed/how-to-test-a-function-thats-expected-to-throw-error-in-jest-2419cc7c6462). After further research, I was able to test throwing an error in the function. 
+
+Date: 01/08/2021
+Message: Did not code today
+
+Date: 01/09/2021
+Message: Today was a pretty good day. I have completed the 'Count' portion of the Functionalities for my project. Using TDD, I had created various functions to check the number of products, categories, and hardware stores. 
