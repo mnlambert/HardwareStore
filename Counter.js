@@ -6,7 +6,9 @@ class Counter {
     countProductsInCategory(category) {
 
         if (category instanceof Category) {
-            return category.productList.length;
+
+            return new Set(category.productList).size;
+
         } else {
             throw new NotACategoryError("Please pass parameter of type Category.");
         }
@@ -52,6 +54,11 @@ class Counter {
 
         return numOfProductsInHardwareStore;
     }
+
+    createSet(list) {
+        return new Set(list);
+    }
+
 }
 
 module.exports = Counter;

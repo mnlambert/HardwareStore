@@ -3,3 +3,4 @@
 npm run test //Runs a JS Jest Test
 clear //Clears the Terminal
 node file.js //Runs a JS file from the terminal
+npm uninstall [package name] //Uninstalls a package

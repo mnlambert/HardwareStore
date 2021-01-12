@@ -25,10 +25,11 @@ Idea:
             - how many products in each hardware store
             - how many categories in all the hardware stores
             - how many products in all the hardware stores
-        - Rank each location by number of products.
-        - Ability to count the number of products.
-        - Rank each location by number of categories.
-        - Ability to count the number of categories.
+            - duplicate categories should count as one
+            - duplicate products should count as one
+        - Rank 
+            - Each location by number of products.
+            - Each location by number of categories.
         - Search for products and tell user which locations have this product
         - If no stores have a product, then send error message (or state that the item is unavailable).
         - If no stores have a category, then send error message (or state that the item is unavailable).
@@ -49,14 +50,11 @@ Message: Today, I have begun my quest to complete this Hardware Store project. I
 Date: 01/05/2021
 Message: Today is a new day! I will be doing some Test Driven Development with Javascript! Was able to write a simple Test using Jest! I can count how many products are in 1 category. I also tried to throw an error but was unsuccessful today. I will try again tomorrow and see where this project takes me. 
 
-Date: 01/06/2021
-Message: Did not code today
-
 Date: 01/07/2021
 Message: Today is a new day! I will try testing my error code and see if it returns this error. Go to this link for the accursed TDD for JS to test throwing errors in a function(https://medium.com/@afolabiwaheed/how-to-test-a-function-thats-expected-to-throw-error-in-jest-2419cc7c6462). After further research, I was able to test throwing an error in the function. 
 
-Date: 01/08/2021
-Message: Did not code today
-
 Date: 01/09/2021
-Message: Today was a pretty good day. I have completed the 'Count' portion of the Functionalities for my project. Using TDD, I had created various functions to check the number of products, categories, and hardware stores. 
+Message: Today was a pretty good day. I have completed the 'Count' portion of the Functionalities for my project. Using TDD, I had created various functions to check the number of products, categories, and hardware stores.
+
+Date: 01/11/2021
+Message: Today there was a discovery that there would be an issue with duplication of an object when counting. Today is the day to correct that. Tests have been modified to correct the issue of duplicates.
