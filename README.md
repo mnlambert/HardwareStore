@@ -58,3 +58,6 @@ Message: Today was a pretty good day. I have completed the 'Count' portion of th
 
 Date: 01/11/2021
 Message: Today there was a discovery that there would be an issue with duplication of an object when counting. Today is the day to correct that. Tests have been modified to correct the issue of duplicates.
+
+Date: 01/14/2021
+Message: Today I was tasked with deleting all the functions inside of the Counter.js class and remaking them to practice coding and to make sure TDD is well recieved. Created a dictionary so that I can write some new words in my coding journey. I learned what a Set(), instanceOf, and what Memory Address means. Refer to dictionary. 
