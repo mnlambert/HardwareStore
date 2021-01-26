@@ -61,3 +61,9 @@ Message: Today there was a discovery that there would be an issue with duplicati
 
 Date: 01/14/2021
 Message: Today I was tasked with deleting all the functions inside of the Counter.js class and remaking them to practice coding and to make sure TDD is well recieved. Created a dictionary so that I can write some new words in my coding journey. I learned what a Set(), instanceOf, and what Memory Address means. Refer to dictionary. 
+
+Date: 01/17/21
+Message: Today I was tasked with deleting all the funstion inside of the Counter.js class and remaking them to practice coding and to make sure I understand TDD well. 
+
+Date: 01/25/21
+Message: Today I really struggles with understanding nested For Loops. I had a better grasp on how nested For Loops worked but tomorrow we will see. I have deteled the 'How many different Products are in a Hardware Store' in order to try to create it again tomorrow. 

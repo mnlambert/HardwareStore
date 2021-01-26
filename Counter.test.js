@@ -39,7 +39,7 @@ test('passing a HardwareStore for counting should return number of different Cat
 
     let counter = new Counter();
 
-    expect(counter.countCategoriesInHardwareStore(hardwareStore)).toBe(categoryList.length);
+    expect(counter.countCategoriesInHardwareStore(hardwareStore)).toBe(2);
 
 });
 

@@ -20,6 +20,21 @@ class Counter {
 
     }
 
+    countCategoriesInHardwareStore(hardwareStore) {
+        if (hardwareStore instanceof HardwareStore) {
+            let set2 = new Set();
+            for (let i = 0; i < hardwareStore.categories.length; i++){
+                set2.add(hardwareStore.categories[i].name);
+            }
+            return set2.size;
+        } else {
+            throw new NotAHardwareStoreError();
+        }
+
+    }
+
+
+
 }
 
 module.exports = Counter;
