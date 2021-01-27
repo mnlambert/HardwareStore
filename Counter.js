@@ -33,6 +33,18 @@ class Counter {
 
     }
 
+    countProductsInHardwareStore(hardwareStore) {
+        if (hardwareStore instanceof HardwareStore) {
+            let set3 = new Set();
+            for (let j = 0; j < hardwareStore.categories.length; j++) {
+                for (let k = 0; k < hardwareStore.categories[j].productList.length; k++) {                    
+                    set3.add(hardwareStore.categories[j].productList[k].name);
+                }
+            } return set3.size;
+        } else {
+            throw new NotAHardwareStoreError();
+        }
+    }
 
 
 }
