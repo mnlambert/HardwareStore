@@ -69,4 +69,4 @@ Date: 01/25/21
 Message: Today I really struggles with understanding nested For Loops. I had a better grasp on how nested For Loops worked but tomorrow we will see. I have deteled the 'How many different Products are in a Hardware Store' in order to try to create it again tomorrow. 
 
 Date: 01/26/21
-Message: 
+Message: Today I was successful in using a nested for loop in order to see 'How many different Products are in a Hardware Store'. 
