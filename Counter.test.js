@@ -68,7 +68,11 @@ test('passing a HardwareStore for counting should return number of different Pro
 
     let counter = new Counter();
 
-    expect(counter.countProductsInHardwareStore(hardwareStore)).toBe(5);
+    let arr = counter.countProductsInHardwareStore(hardwareStore);
+    let set1 = new Set(arr);
+    let size = set1.size;
+
+    expect(size).toBe(5);
 
 });
 
@@ -105,27 +109,50 @@ test('passing a HardwareStoreList for counting should return number of different
 });
 
 test('passing a HardwareStoreList for counting should return number of different Product names', () => {
-    let category1 = new Category("Tools", ["Hammer","Screwdriver"]);
-    let category2 = new Category("Paint", ["Red paint", "Black paint", "White paint"]);
-    let category3 = new Category("Wallpaper", ["Roses Wallpaper"]);
-    let category4 = new Category("Tools", ["Hammer","Screwdriver"]);
-    let category5 = new Category("Paint", ["Red paint", "Red paint", "Black paint", "White paint"]);
-    let category6 = new Category("Wallpaper", ["Roses Wallpaper", "Roses Wallpaper"]);
+    let product1 = new Product("Hammer");
+    let product2 = new Product("Screwdriver");
+    let product3 = new Product("Red paint");
+    let product4 = new Product("Red paint");
+    let product5 = new Product("White paint");
+    let product6 = new Product("Roses Wallpaper");
 
-    let categoryList1 = [category1,category2,category3];
-    let categoryList2 = [category4,category6,category4];
-    let categoryList3 = [category5,category3,category3];
+    let category1 = new Category("Tools", [product1, product2]);
+    let category2 = new Category("Paint", [product3, product4, product5]);
+    let category3 = new Category("Wallpaper", [product1, product4, product6]);
 
-    let hardwareStore1 = new HardwareStore("Tempe", categoryList1);
-    let hardwareStore2 = new HardwareStore("Mesa", categoryList2);
-    let hardwareStore3 = new HardwareStore("Gilbert", categoryList3);
+    let categoryList = [category1,category2,category3];
+    let hardwareStore = new HardwareStore("Tempe", categoryList);
+    let hardwareStore2 = new HardwareStore("Tempe", categoryList);
+    
+    // let product1 = new Product("Hammer");
+    // let product2 = new Product("Screwdriver");
+    // let product3 = new Product("Red paint");
+    // let product4 = new Product("Red paint");
+    // let product5 = new Product("White paint");
+    // let product6 = new Product("Roses Wallpaper");
 
-    let hardwareStoreList = [hardwareStore1,hardwareStore2,hardwareStore3];
+    // let category1 = new Category("Tools", [product1,product2]);
+    // let category2 = new Category("Paint", [product3, product5, product5]);
+    // let category3 = new Category("Wallpaper", [product6]);
+    // let category4 = new Category("Tools", [product1,product2]);
+    // let category5 = new Category("Paint", [product3, product4, product5, product5]);
+    // let category6 = new Category("Wallpaper", [product6, product6]);
 
+    // let categoryList1 = [category1,category2,category3];
+    // let categoryList2 = [category4,category6,category4];
+    // let categoryList3 = [category5,category3,category3];
+
+    // let hardwareStore1 = new HardwareStore("Tempe", categoryList1);
+    // let hardwareStore2 = new HardwareStore("Mesa", categoryList2);
+    // let hardwareStore3 = new HardwareStore("Gilbert", categoryList3);
+
+    let hardwareStoreList = [];
+    hardwareStoreList.push(hardwareStore);
+    //hardwareStoreList.push(hardwareStore2);
     let counter = new Counter();
 
-    expect(counter.countProductsInHardwareStoreList(hardwareStoreList)).toBe(
-        (6));
+    let set1 = new Set (counter.countProductsInHardwareStoreList(hardwareStore));
+    expect(set1.size).toBe(6);
 
 });
 
