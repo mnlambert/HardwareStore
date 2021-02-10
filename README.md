@@ -73,3 +73,6 @@ Message: Today I was successful in using a nested for loop in order to see 'How 
 
 Date: 02/08/21
 Message: Today is a new day! I will erase all that I have created and recreate the project. This is not only to relearn what I have learned but hopefully solidify a lot of the concepts learned from building the project. I hope to really think about names and use functions more effectively. 
+
+Date: 02/09/21
+Message: 
