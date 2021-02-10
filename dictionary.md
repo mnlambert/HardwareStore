@@ -8,3 +8,5 @@ instanceOf: Used to check if a variable is of a specific type of Object.
 Class: A blueprint of an object.
 
 Constructor: A function that builds the object. 
+
+Parameter: The names listed in a function definition (or parenthesis)
